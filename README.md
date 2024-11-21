@@ -18,3 +18,5 @@ In this project I used html and the BEM method to build a page with images, text
 This webpage is deploy to Github Pages
 
 [-Deployment Link: ](https://kevin-pickles.github.io/se_project_spots/)
+
+[Watch the conclusion video](https://drive.google.com/file/d/1ZI9yPgkMOG5w79cwdFL9zzRezBHqXmka/view?usp=drive_link)
