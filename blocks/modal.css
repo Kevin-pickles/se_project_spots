@@ -26,7 +26,7 @@
   border-radius: 8px;
 }
 
-.modal__close-button {
+.modal__close-btn {
   background-image: url(../images/closeicon.svg);
   background-color: #fff;
   border: none;
@@ -42,7 +42,7 @@
   transition: opacity 0.5s;
 }
 
-.modal__close-button:hover {
+.modal__close-btn:hover {
   opacity: 100%;
 }
 
@@ -81,7 +81,7 @@
   opacity: 100%;
 }
 
-.modal__save-button {
+.modal__save-btn {
   width: 156px;
   padding: 18px 0;
   border-radius: 8px;
@@ -104,7 +104,7 @@
     font-size: 20px;
     margin: 10px 0 34px;
   }
-  .modal__close-button {
+  .modal__close-btn {
     top: 12px;
     right: 12px;
   }
@@ -113,7 +113,7 @@
     font-size: 16px;
     line-height: 17.6px;
   }
-  .modal__save-button {
+  .modal__save-btn {
     width: 100%;
   }
 }
