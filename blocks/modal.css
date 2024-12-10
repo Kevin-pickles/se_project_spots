@@ -73,9 +73,11 @@
   line-height: 1;
   cursor: pointer;
   border: 1px solid #212121;
-  opacity: 30%;
   border-radius: 8px;
   transition: opacity 0.5s;
+}
+.modal__input::placeholder {
+  opacity: 30%;
 }
 .modal__input:hover {
   opacity: 100%;
