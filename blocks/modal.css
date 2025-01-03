@@ -1,5 +1,6 @@
 .modal {
   position: fixed;
+  transition: visibility 0.3s, opacity 0.3s ease-in;
   top: 0;
   left: 0;
   bottom: 0;
@@ -9,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
+  padding: 0 10px;
   visibility: hidden;
 }
 
@@ -29,6 +30,7 @@
 .modal__container_type_preview {
   padding: 0;
   background: transparent;
+  max-width: fit-content;
 }
 
 .modal__image {
@@ -63,7 +65,7 @@
   right: 50px;
   width: 40px;
   height: 40px;
-  opacity: 40%;
+  opacity: 0.4;
   transition: opacity 0.5s;
 }
 
@@ -90,6 +92,7 @@
 .modal__label {
   display: flex;
   flex-direction: column;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   gap: 8px;
   margin-bottom: 32px;
   font-weight: 500;
@@ -136,6 +139,10 @@
   }
   .modal__container {
     padding: 12px;
+    border-radius: 8px;
+  }
+  .modal__container_type_preview {
+    padding: 0;
   }
   .modal__title {
     font-size: 20px;
@@ -152,5 +159,16 @@
   }
   .modal__save-btn {
     width: 100%;
+  }
+  .modal__image {
+    border-radius: 4px;
+  }
+  .modal__caption {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  .modal__close-btn_type_preview {
+    top: -40px;
+    right: -15px;
   }
 }
