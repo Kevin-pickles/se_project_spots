@@ -64,11 +64,15 @@
 }
 
 .profile__add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
   color: white;
   background-color: #212121;
   margin-left: auto;
   margin-top: auto;
-  width: 149px;
+  padding: 18px 32px;
   height: 52px;
   border-radius: 8px;
   cursor: pointer;
@@ -82,7 +86,6 @@
 .profile__plus-logo {
   width: 12px;
   height: 12px;
-  padding-right: 8px;
 }
 
 @media screen and (max-width: 627px) {

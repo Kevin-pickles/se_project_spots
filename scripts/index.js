@@ -58,7 +58,6 @@ function getCardElement(data) {
   const cardNameEl = cardElement.querySelector(".card__title");
   const cardImageEl = cardElement.querySelector(".card__image");
   const cardLikeBtn = cardElement.querySelector(".card__like-button");
-  // TODO is lastly add the delete stuff last couple minutes for video 4//
   const cardDeleteBtn = cardElement.querySelector(".card__trash-btn");
 
   cardNameEl.textContent = data.name;
@@ -90,6 +89,7 @@ function handleAddCardSubmit(evt) {
   };
   renderCard(inputValues, "prepend");
   closeModal(cardModal);
+  cardForm.reset();
 }
 
 function renderCard(data, method = "append") {

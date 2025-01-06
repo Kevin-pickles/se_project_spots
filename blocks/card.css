@@ -33,6 +33,7 @@
   background-image: url(../images/heart.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  padding: 0;
   width: 23px;
   height: 20px;
   border: none;
@@ -75,6 +76,7 @@
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+    margin-bottom: ;
   }
   .card__title {
     max-width: 250px;
